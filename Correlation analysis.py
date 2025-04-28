@@ -1,4 +1,4 @@
-# این کد میاد ضریب همبستگی رو به ۶ روش محاسبه میکنه
+# این کد میاد ضریب همبستگی رو به شش روش محاسبه میکنه
 import pandas as pd
 from scipy.stats import pearsonr, spearmanr, kendalltau
 from sklearn.feature_selection import mutual_info_regression
