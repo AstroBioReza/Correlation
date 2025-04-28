@@ -7,8 +7,8 @@ import dcor
 import random
 
 # Load the dataset
-file_path = r"C:\(ELIFE)\CHIR\Frequency in KEGG.xlsx"
-output_file = r"C:\(ELIFE)\CHIR\correlation_summary.xlsx"
+file_path = r"Input file path"
+output_file = r"output file.xlsx"
 
 def load_data(file_path, col_x, col_y):
     df = pd.read_excel(file_path, header=0, sheet_name="updated_data_2-20-25")
